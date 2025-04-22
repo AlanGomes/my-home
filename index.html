@@ -36,6 +36,31 @@
       padding: 2rem;
       text-align: center;
     }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 300px;
+      margin: 0 auto;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 0.5rem;
+      background-color: #2f855a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #38a169;
+    }
   </style>
 </head>
 <body>
@@ -59,7 +84,7 @@
     <section id="sobre">
       <h2>Sobre</h2>
       <p>Saiba mais sobre nossa equipe e missão.</p>
-
+      
       <!-- Formulário de Contato -->
       <h3>Contato</h3>
       <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
@@ -74,7 +99,6 @@
 
         <button type="submit">Enviar</button>
       </form>
-      
     </section>
   </main>
   <footer>
