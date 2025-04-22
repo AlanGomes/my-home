@@ -59,6 +59,22 @@
     <section id="sobre">
       <h2>Sobre</h2>
       <p>Saiba mais sobre nossa equipe e missão.</p>
+
+      <!-- Formulário de Contato -->
+      <h3>Contato</h3>
+      <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      
     </section>
   </main>
   <footer>
